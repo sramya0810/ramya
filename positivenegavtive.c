@@ -2,6 +2,8 @@
 void main()
 {
 int n;
+printf("\nenter the number");
+  scanf("%d");
 if(n!=0)
 {
 if(n>0)
