@@ -1,13 +1,13 @@
 #include <stdio.h>
 void main()
 {
-int a, b, c, d, t, gcd, lcm;
+int a, b, c, d, temp, gcd;
 printf("Enter two integers\n");
 scanf("%d%d", &a, &b);
 c = a;
 d = b;
 while (d != 0) {
-t = d;
+temp = d;
 d = c % d;
 c = t;
 }
