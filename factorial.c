@@ -2,9 +2,7 @@
 int factorial(int);
 int main()
 {
-    int n,r;
-    printf("Enter a number to find Factorial: ");
-    scanf("%d", &n);
+    int n=5,r;
     if (n< 0)
     {
         printf("Factorial of negative number not possible\n");
